@@ -22,6 +22,10 @@ To build a glibc package, run:
     ./build-docker-image.sh
     docker run --rm --env STDOUT=1 glibc-builder 2.32 /usr/glibc-compat > glibc-bin-2.32-armhf.tar.gz
 
+For Alpine Linux packages, see [alpine-pkg-glibc-armhf](https://github.com/jvasileff/alpine-pkg-glibc-armhf).
+
+The upstream readme follows:
+
 # docker-glibc-builder
 
 A glibc binary package builder in Docker. Produces a glibc binary package that can be imported into a rootfs to run applications dynamically linked against glibc.
