@@ -15,6 +15,7 @@ main() {
 			--prefix="$prefix" \
 			--libdir="$prefix/lib" \
 			--libexecdir="$prefix/lib" \
+			--host=armv6-linux \
 			--enable-multi-arch \
 			--enable-stack-protector=strong
 		make && make install
